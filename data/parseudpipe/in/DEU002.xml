@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://relaxng.org/ns/structure/1.0"?>
+    <?xml-model href="../../Schemas/eltec-1.rng" type="application/xml" 
+            schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de" xml:id="DEU002">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Der Lehnhold : ELTeC ausgabe</title>
+            <author ref="http://d-nb.info/gnd/11865103X">Auerbach, Berthold (1812-1882)</author>
+            <respStmt>
+               <resp>ELTeC conversion</resp>
+               <name>Leonard Konle</name>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            <measure unit="words">66067</measure>
+            <measure unit="pages">243</measure>
+         </extent>
+         <publicationStmt>
+<publisher ref="https://distant-reading.net">COST Action "Distant Reading for European Literary History" (CA16204)</publisher>
+<distributor ref="https://zenodo.org/communities/eltec/">Zenodo.org</distributor><date when="2021-04-09"/>
+<availability><licence target="https://creativecommons.org/licenses/by/4.0/"/></availability>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3462435">ELTeC</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662444">ELTeC release 1.1.0</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.3543243">ELTeC-deu</ref>
+<ref type="doi" target="https://doi.org/10.5281/zenodo.4662482">ELTeC-deu release 1.0.0</ref>
+</publicationStmt>
+         <sourceDesc><bibl type="digitalSource">
+               <title>Der Lehnhold</title>
+               <author>Auerbach, Berthold</author>
+               <ref target="textgrid:k8gc.0"/>
+            </bibl><bibl type="printSource"><author>Berthold Auerbach</author>: <title>Gesammelte
+                  Schriften</title>, 2. Gesammtausgabe, Band 7, <pubPlace>Stuttgart</pubPlace>:
+                  <publisher>Cotta</publisher>, <date>1863</date>. </bibl></sourceDesc>
+      </fileDesc>
+      <encodingDesc n="eltec-1">
+         <p/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">German</language>
+         </langUsage>
+         <textDesc>
+            <authorGender xmlns="http://distantreading.net/eltec/ns" key="M"/>
+            <size xmlns="http://distantreading.net/eltec/ns" key="medium"/>
+            <reprintCount xmlns="http://distantreading.net/eltec/ns" key="low"/>
+            <timeSlot xmlns="http://distantreading.net/eltec/ns" key="T1"/>
+         </textDesc>
+      </profileDesc>
+      <revisionDesc>
+<change when="2021-04-09">Converted by checkUp script for new release</change><change when="2021-03-29">Converted to level1</change>
+<change when="2020-11-14">Converted by checkUp script for new release</change><change when="2020-11-12">Checked by checkup script</change>
+         <change when="2019-11-14">Checked by releaseChecker script</change>
+         <change when="2019-01-28">Conversion from Kallimachos Kernkorpus</change>
+      </revisionDesc>
+   </teiHeader>
+
+   <text>
+
+      <body>
+         <div type="chapter">
+            <head>Ab der Landstraße.</head>
+            <p>Ab der Landstraße, die durch das rauschende Waldthal führt, zieht sich ein Fahrweg
+               bergan durch den Wald und dann zwischen lebendigen Buchenhecken nach einem einsamen
+               Gehöfte, einer sogenannten Einzechte.</p>
+            <p>Die Gleise auf dem Wege sind alle gleich, denn hier bewegen sich nur Wagen von
+               derselben Spurweite, wer hier auf und abzieht, hat mit dem Bauer von der langen
+               Furche zu thun; denn dieser Weg gehört dem Furchenbauer zu eigen und führt nur zu
+               ihm; wer von da wieder zurück will zu anderen Menschen, muß auf demselben Wege wieder
+               umkehren.</p>
+            <p>So stattlich und weit sich auch Haus und Scheunen dort ausnehmen, die mit ihren
+               grauen Strohdächern fast felsenartig in's Thal herniederschauen; sie haben doch nicht
+               Raum genug für all das reiche Erträgniß des Feldes, denn hüben und drüben in den
+               Feldern sehen wir die kegelförmig gebauten Garbenhaufen, Feimen genannt, die erst
+               nach und nach abgedroschen werden und in den noch herbstgrünen Bergwiesen stehen
+               lustige Scheunen, sogenannte Stadel, deren Wände und Dach von graugewordenen Brettern
+               viel nahrhaftes Heu in sich bergen.</p>
+            <p>
+               <pb/> Dort etwas fern vom Hofe, am Rande des Bergvorsprunges jenes kleine aus Holz
+               erbaute Häuschen, mit einer Thurmspitze geschmückt, das ist die Kapelle, die dem Hofe
+               zu eigen gehört. An Sommerabenden oder auch am Sonntage wenn man nicht nach der mehr
+               als eine Stunde entfernten Kirche gehen kann, versammelt der Hausherr seine Kinder
+               und sein Ingesinde in dem Käppele (wie der Landesausdruck hier das Wort Kapelle
+               umgewandelt hat) und vor den mit Blumen und Bändern geschmückten Heiligenbildern wird
+               er selber eine Art Priester, indem er laut die üblichen Gebete spricht und Alles um
+               ihn her kniet.</p>
+            <p>Wir sind längst auf Grund und Boden des Furchenbauern, aber der Weg ist noch lang
+               genug, daß wir uns einstweilen erinnern können, zu wem wir gehen, bis wir den Mann
+               selbst vor uns haben. Damals, als wir mit dem Brosi auf der lustigen Hochzeit in
+               Endringen waren und den Bändelestanz entstehen sahen, damals hatten wir uns
+               vorgesetzt, die Geschichte des Furchenbauern zu erzählen. Wer damals das glückselige
+               und reich gesegnete junge Paar erschaute, konnte nicht ahnen, welch ein schweres
+               Geschick ihm bevorstand, das sich mit der Zeit erfüllte.</p>
+            <p>Freilich, stolz und eigenmächtig war der junge Furchenbauer schon damals: hatte er ja
+               dem armen Brosi einen Taglohn dafür geben wollen, wenn er mit Tanzen und Singen die
+               Hochzeitsgäste erlustige; schon damals blickte der Furchenbauer mit einer stillen
+               innern Verachtung auf Jeden herunter, der ihm nicht gleichstand und hielt es nur
+               selten der Mühe werth, in<pb/> Wort und Mienen das auszusprechen. Aber warum soll ein
+               junger Baron in schwarzem rothausgeschlagenem Sammtrock, rother Weste und Lederhosen
+               nicht eben so stolz sein wie einer mit Epauletten und goldgesticktem Halskragen? Der
+               Furchenbauer konnte sich neben jedem Ritterbürtigen sehen lassen. Er war alleiniger
+               Erbe oder wie man es hier zu Lande noch heißt, der Lehnhold des großen Gutes von der
+               langen Furche, das sich in Wald und Feld weit über Berg und Thal ausbreitet; er hatte
+               acht Roß im Stall, eben so viel Ochsen und die Doppelzahl Kühe und Rinder und Alles
+               war schuldenfrei, denn er heirathete die Tochter des reichen fetten Gäubauern, des
+               Vogts von Siebenhöfen, der den ehrenvollen Unnamen »der Schmalzgraf« hatte, und von
+               dem Beibringen der Frau konnte die ausbedungene Losung der einzigen Schwester, die
+               nachmals den Gipsmüller heirathete, blank ausgezahlt werden; der einzige Bruder, der
+               sich dem geistlichen Stande weihte, erhielt nur einen Theil des ihm Zukommenden, das
+               Uebrige ließ er auf dem elterlichen Hofe stehen, es war ja ohnedieß das einstige Erbe
+               der Bruderskinder.</p>
+            <p>Mit einem stolzen gesättigten Behagen sah der Christoph, oder wie er jetzt – da ihm
+               seine Würde erst den rechten Namen verlieh – hieß, der Furchenbauer am Morgen nach
+               seiner Hochzeit zum Fenster hinaus und schaute zu, wie der Wind mit den Morgennebeln
+               spielte, fast so wie er selber die Tabakswolken vor sich her blies. Der Vater hatte
+               ihm die Zeit lang gemacht, Christoph war ledigerweise viel älter geworden, als die
+               Bauernsöhne seinesgleichen, der Vater schien <pb/> das Gut nicht lassen zu können,
+               bis der Tod es ihm entriß. Christoph zürnte im Stillen oft darüber, aber er war in
+               Gehorsam und Unterwürfigkeit erzogen und durfte sich nichts merken lassen; war es ihm
+               ja übel bekommen, als er einmal scherzweise zu seinem Vater sagte: »Gebt Euer Sach
+               doch her so lang ihr lebet, dann höret Ihr's auch noch wie man Euch Dank sagt.«
+               Christoph hörte die Antwort darauf nicht, aber er fühlte sie. Nur auf Bedrängen der
+               Gefreundeten und besonders des zweiten Sohnes, der damals Pfarrverweser in
+               Reichenbach war, ließ sich endlich der Vater bewegen, an Christoph abzugeben. Er
+               wählte seinem Sohne die ebenbürtige Frau und dieser willfahrte nach altem Brauch;
+               aber als müßte es doch zur Wahrheit werden, daß der Vater das Gut bei Lebzeiten nicht
+               lassen könne, starb er vor der Uebergabe und der Hochzeit. Am Morgen nach dieser
+               dachte Christoph mit einem gewissen wehmüthigen Danke an den Vater; er hatte Recht
+               gethan ihn nicht früher in das Gut einzusetzen, jetzt erst war er geeignet, der
+               Furchenbauer zu heißen, und ein schönes reichgesegnetes Leben lag vor ihm ...</p>
+            <p>Die freudige Stimmung jenes ersten Morgens nach der Hochzeit ist schon lange
+               verklungen. Wenn man bald vierzig Jahre im Besitze einer Macht ist, denkt man kaum
+               mehr der Stunde, da man damit bekleidet wurde. Der Furchenbauer hat seitdem
+               Mancherlei erlebt. Von neun Kindern waren ihm vier verblieben, drei Söhne und eine
+               Tochter; er hatte die Freude, den ältesten zum Schmalzgrafen erhoben zu sehen, denn
+               er erbte das Gut des Muttervaters; aber schon nach wenigen <pb/> Jahren starb der
+               rüstige Schmalzgraf mit Hinterlassung einer einzigen Tochter. Dieß war das alleinige
+               Enkelchen des Furchenbauern, denn die andern Kinder waren unverheirathet, und wir
+               werden bald sehen warum.</p>
+            <p>Wir sind am Hofe. Dumpfes Bellen und Kettenrasseln zweier Hofhunde, die in ihrem
+               Bellen sich bald ablösen und bald zusammenstimmen, zeigt an, daß kein Fremder sich
+               unbemerkt hier nahen darf; über das Bellen hinaus tönt aber der Taktschlag von sechs
+               Dreschern und dazwischen vernimmt man das rasche Klappern einer Handmühle, der
+               sogenannten Putzmühle, die statt des ehedem üblichen Wurfelns das Korn säubert.
+               Häuser, Ställe und Scheuern sind im Gevierte gebaut, das Thor steht offen; halten wir
+               aber noch eine Weile inne, bevor wir eintreten. – Auf der Leiter an einem
+               Zwetschgenbaum im Hausgarten steht eine Frauengestalt in üblicher Landestracht, die
+               rothen Strümpfe umschließen ein mächtiges Wadenpaar. Aus dem offenen Hofthore kommt
+               ein schlanker junger Bauer, drei mächtige Strohbündel auf dem Rücken.</p>
+            <p>»Ameile, fall nicht abe,« ruft der junge Mann.</p>
+            <p>»Da unten ist auch schwäbisch,« antwortet es in die Zweige hinein und die Strohbündel
+               hüpfen auf und nieder von dem Lachen des jungen Mannes, während die Frauengestalt
+               wieder fragt:</p>
+            <p>»Was willst denn mit dem Stroh?«</p>
+            <p>»Der Bauer will, daß man die Breitlingäpfel dort dießmal nicht brechen soll, man hab'
+               kein' Zeit dazu, ich soll sie schütteln und Stroh unterlegen. Steig abe und gieb mir
+               die Leiter.«</p>
+            <p>»Bist zu steif? Kannst nicht 'naufkrebseln?« spottet <pb/> das Mädchen, während der
+               Bursche das Stroh ausbreitet und erwidert:</p>
+            <p>»Du sollst auflesen, ich muß gleich wieder an's Dreschen.« Behende ist er auf den
+               Baum geklettert, der ganze Baum wird hin und hergeschüttelt, es rasselt in den
+               Zweigen und dumpf prasselnd auf das knisternde Stroh und darüber hinaus fallen die
+               rothbackigen Aepfel. Das Mädchen will bald da bald dort anfangen aufzulesen, aber wo
+               es sich zeigt, wird ein Ast mächtiger geschüttelt und manchmal getroffen von einem
+               Apfel grillt es auf und schilt den tückischen Mann auf dem Baume. Dieser steigt ab,
+               schaut das Mädchen kurz an und will nach dem Hofe gehen.</p>
+            <p>»Du machst unsaubere Arbeit!« sagt das Mädchen lachend und fährt auf den Baum deutend
+               fort: »Schau, dort hängt noch ein Apfel und dort noch einer.«</p>
+            <p>Im Fortgehen erwidert der Bursche:</p>
+            <p>»Du vergißst's immer wieder und ich hab' dir's schon oft gesagt: wenn man einem
+               Obstbaum nicht Alles abnimmt, trägt er im nächsten Jahre um so gewisser.«</p>
+            <p>Ameile (Amalie) hält einen Apfel in der Hand und will den Weggehenden damit werfen,
+               aber noch im Ausholen hält sie an, ein zweiflerischer Gedanke scheint ihr die Hand zu
+               senken, sie steckt den Apfel in die Tasche und auf das Stroh kniend, rafft sie die
+               Aepfel zusammen und singt dazu:</p>
+
+            <!--milestone hi_start-->
+            <p>»Schätzele, Engele,</p>
+            <p>Laß mi e wengele –«</p>
+            <p>»Schätzele wasele?«</p>
+            <p>»Nur mit dir basele?«</p>
+            <!--milestone hi_end-->
+
+            <p>
+               <pb/> Der Bursche, der eine Soldatenmütze auf dem Kopfe trägt und überhaupt eine
+               soldatische Haltung verräth, geht wieder nach dem Hofe zurück, nimmt den Dreschflegel
+               zur Hand und fällt taktmäßig in die Schläge ein.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

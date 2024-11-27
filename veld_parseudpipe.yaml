@@ -1,0 +1,20 @@
+x-veld:
+  chain:
+
+services:
+  parseudpipe:
+    extends:
+      file: ./code/veld_code_teitok-tools/veld_parseudpipe.yaml
+      service: parseudpipe
+    volumes:
+      - ./data/parseudpipe/in/:/veld/input/
+      - ./data/parseudpipe/out/:/veld/output/
+    environment:
+      in_xml_file: DEU001.xml
+      out_xml_file: DEU001.xml
+      writeback: true
+      model: german-hdt-ud-2.6-200830
+      token: p
+      sent: p
+      atts: div
+

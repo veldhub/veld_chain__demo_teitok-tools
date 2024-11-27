@@ -1,0 +1,20 @@
+x-veld:
+  chain:
+
+services:
+  xmltokenize:
+    extends:
+      file: ./code/veld_code_teitok-tools/veld_xmltokenize.yaml
+      service: xmltokenize
+    volumes:
+      - ./data/xmltokenize/in/:/veld/input/
+      - ./data/xmltokenize/out/:/veld/output/
+    environment:
+      in_xml_file: DEU001.xml
+      out_xml_file: DEU001.xml
+      textnode: body
+      tok: tok_xyz
+      exclude: p
+      enumerate: true
+      segment: 1
+
