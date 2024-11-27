@@ -1,0 +1,3 @@
+[submodule "veld_code_teitok-tools"]
+	path = veld_code_teitok-tools
+	url = https://github.com/SteffRhes/veld_code_teitok-tools.git
