@@ -1,5 +1,13 @@
 x-veld:
   chain:
+    description: "This chain veld exemplifies usage of the respective code veld. For more 
+      information on the underlying tool and its usage, see: 
+      https://github.com/ufal/teitok-tools?tab=readme-ov-file#xmltokenize"
+    topics:
+      - NLP
+      - ETL
+      - tokenization
+      - universal dependencies
 
 services:
   xmltokenize:
@@ -13,8 +21,10 @@ services:
       in_xml_file: DEU001.xml
       out_xml_file: DEU001.xml
       textnode: body
-      tok: tok_xyz
-      exclude: p
+      tok: xyz
+      # TODO: set better example on usage
+      #exclude: null
       enumerate: true
-      segment: 1
+      # TODO: set better example on usage
+      #segment: null 
 
