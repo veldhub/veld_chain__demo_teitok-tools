@@ -10,10 +10,10 @@ x-veld:
       - universal dependencies
 
 services:
-  xmltokenize:
+  veld_xmltokenize:
     extends:
-      file: ./code/veld_code_teitok-tools/veld_xmltokenize.yaml
-      service: xmltokenize
+      file: ./code/veld_code__teitok-tools/veld_xmltokenize.yaml
+      service: veld_xmltokenize
     volumes:
       - ./data/xmltokenize/in/:/veld/input/
       - ./data/xmltokenize/out/:/veld/output/

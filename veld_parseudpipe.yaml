@@ -10,10 +10,10 @@ x-veld:
       - universal dependencies
 
 services:
-  parseudpipe:
+  veld_parseudpipe:
     extends:
-      file: ./code/veld_code_teitok-tools/veld_parseudpipe.yaml
-      service: parseudpipe
+      file: ./code/veld_code__teitok-tools/veld_parseudpipe.yaml
+      service: veld_parseudpipe
     volumes:
       - ./data/parseudpipe/in/:/veld/input/
       - ./data/parseudpipe/out/:/veld/output/
