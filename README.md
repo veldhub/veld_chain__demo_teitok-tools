@@ -1,11 +1,12 @@
 # demo veld chain of teitok-tools
 
-This chain integrates the code veld https://github.com/veldhub/veld_code__teitok-tools on sample
-data provided by https://github.com/COST-ELTeC/ELTeC-deu/
+This chain veld integrates the code veld https://github.com/veldhub/veld_code__teitok-tools on 
+sample data provided by https://github.com/COST-ELTeC/ELTeC-deu/
 
 ## how to reproduce
 
-**requirements: docker compose and git (note, depending on your docker / compose version, you might need to run `docker-compose ...` instead of `docker compose ...`**
+**requirements: docker compose and git (note, depending on your docker / compose version, you might
+need to run `docker-compose ...` instead of `docker compose ...`**
 
 Clone this repo with all submodules:
 
