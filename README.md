@@ -21,7 +21,7 @@ This repo contains three demo chain velds:
 - [./veld_udpipe2teitok.yaml](./veld_udpipe2teitok.yaml)
 - [./veld_xmltokenize.yaml](./veld_xmltokenize.yaml)
 
-And execute a veld chain with:
+Execute a veld chain with:
 ```
 docker compose -f <chain yaml> up
 ```
