@@ -3,16 +3,23 @@
 This chain veld integrates the code veld https://github.com/veldhub/veld_code__teitok-tools on 
 sample data provided by https://github.com/COST-ELTeC/ELTeC-deu/
 
+## requirements
+
+- git
+- docker compose
+
 ## how to reproduce
 
-**requirements: docker compose and git (note, depending on your docker / compose version, you might
-need to run `docker-compose ...` instead of `docker compose ...`**
-
 Clone this repo with all submodules:
-
 ```
 git clone --recurse-submodules https://github.com/veldhub/veld_chain__demo_teitok-tools.git
 ```
+
+This repo contains three demo chain velds:
+
+- [./veld_parseudpipe.yaml](./veld_parseudpipe.yaml)
+- [./veld_udpipe2teitok.yaml](./veld_udpipe2teitok.yaml)
+- [./veld_xmltokenize.yaml](./veld_xmltokenize.yaml)
 
 And execute a veld chain with:
 ```
