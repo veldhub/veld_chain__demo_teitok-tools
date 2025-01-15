@@ -1,35 +1,39 @@
-# demo veld chain of teitok-tools
+# veld_chain__demo_teitok-tools/
 
-This chain veld integrates the code veld https://github.com/veldhub/veld_code__teitok-tools on 
-sample data provided by https://github.com/COST-ELTeC/ELTeC-deu/
+This repo contains [chain velds](https://zenodo.org/records/13322913) encapsulating demos of code 
+velds from https://github.com/veldhub/veld_code__teitok-tools applied on sample data provided by 
+https://github.com/COST-ELTeC/ELTeC-deu/ .
 
 ## requirements
 
 - git
-- docker compose
+- docker compose (note: older docker compose versions require running `docker-compose` instead of 
+  `docker compose`)
 
-## how to reproduce
-
-Clone this repo with all submodules:
+Clone this repo with all its submodules
 ```
 git clone --recurse-submodules https://github.com/veldhub/veld_chain__demo_teitok-tools.git
 ```
 
-This repo contains three demo chain velds:
+## how to reproduce
 
-- [./veld_parseudpipe.yaml](./veld_parseudpipe.yaml)
-- [./veld_udpipe2teitok.yaml](./veld_udpipe2teitok.yaml)
-- [./veld_xmltokenize.yaml](./veld_xmltokenize.yaml)
+The following chain velds were used. Open the respective veld yaml file for more information.
 
-Execute a veld chain with:
+**[./veld_parseudpipe.yaml](./veld_parseudpipe.yaml)**
+
 ```
-docker compose -f <chain yaml> up
+docker compose -f veld_parseudpipe.yaml up
 ```
-e.g.
+
+**[./veld_udpipe2teitok.yaml](./veld_udpipe2teitok.yaml)**
+
 ```
 docker compose -f veld_udpipe2teitok.yaml up
 ```
 
-See inside the respective chain yaml files within this repo, or the code veld yaml files within the
-submodule, for more information.
+**[./veld_xmltokenize.yaml](./veld_xmltokenize.yaml)**
+
+```
+docker compose -f veld_xmltokenize.yaml up
+```
 
